@@ -8,40 +8,40 @@ const Index = () => {
   const featuredBusinesses = [
     {
       id: 1,
-      name: "Grace Bakery & Café",
+      name: "Blessed Bread Bakery",
       category: "Bakery",
-      description: "Artisan breads and pastries made with love and prayer",
+      description: "Fresh chapati, mandazi and artisan breads baked with love and prayer",
       rating: 4.9,
       reviews: 127,
-      location: "Downtown Christian District",
-      phone: "(555) 123-4567",
-      website: "gracebakery.com",
+      location: "Westlands, Nairobi",
+      phone: "+254 712 345 678",
+      website: "blessedbreads.co.ke",
       image: "🍞",
       featured: true
     },
     {
       id: 2,
-      name: "Cornerstone Construction",
+      name: "Rock Foundation Construction",
       category: "Construction",
-      description: "Building homes and businesses on solid foundations",
+      description: "Building homes and businesses across Kenya on solid foundations",
       rating: 4.8,
       reviews: 89,
-      location: "Greater Metro Area",
-      phone: "(555) 234-5678",
-      website: "cornerstonebuild.com",
+      location: "Nairobi & Mombasa",
+      phone: "+254 722 456 789",
+      website: "rockfoundation.co.ke",
       image: "🏗️",
       featured: true
     },
     {
       id: 3,
-      name: "Faithful IT Solutions",
+      name: "Faith Tech Solutions",
       category: "Technology",
-      description: "Reliable technology services with Christian integrity",
+      description: "Reliable IT services and M-Pesa integration with Christian integrity",
       rating: 5.0,
       reviews: 64,
-      location: "Virtual & On-site",
-      phone: "(555) 345-6789",
-      website: "faithfulit.com",
+      location: "CBD, Nairobi",
+      phone: "+254 733 567 890",
+      website: "faithtech.co.ke",
       image: "💻",
       featured: true
     }
@@ -51,7 +51,7 @@ const Index = () => {
     {
       icon: <Users className="h-6 w-6 text-accent" />,
       title: "Connect with Community",
-      description: "Join a network of faith-driven businesses and customers"
+      description: "Join Kenya's network of faith-driven businesses and customers"
     },
     {
       icon: <Shield className="h-6 w-6 text-accent" />,
@@ -60,8 +60,8 @@ const Index = () => {
     },
     {
       icon: <Heart className="h-6 w-6 text-accent" />,
-      title: "Support Local",
-      description: "Strengthen your local Christian business community"
+      title: "Support Local Kenya",
+      description: "Strengthen Kenya's Christian business community"
     }
   ];
 
@@ -73,7 +73,7 @@ const Index = () => {
           <div className="flex items-center space-x-2">
             <Cross className="h-8 w-8 text-primary" />
             <div>
-              <h1 className="text-2xl font-bold text-primary">Grace Marketplace</h1>
+              <h1 className="text-2xl font-bold text-primary">Grace Marketplace Kenya</h1>
               <p className="text-sm text-muted-foreground">Christian Business Directory</p>
             </div>
           </div>
@@ -91,11 +91,11 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="animate-fade-in">
             <h2 className="text-5xl md:text-6xl font-bold mb-6">
-              Connect with <span className="text-yellow-200">Christian</span> Businesses
+              Connect with <span className="text-yellow-200">Christian</span> Businesses in Kenya
             </h2>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-              Discover and support faith-centered businesses in your community. 
-              Where Christian values meet quality service.
+              Discover and support faith-centered businesses across Kenya. 
+              From Nairobi to Mombasa, where Christian values meet quality service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="text-lg px-8 py-3">
@@ -114,9 +114,9 @@ const Index = () => {
       <section className="py-16 bg-christian-cream/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h3 className="text-4xl font-bold text-primary mb-4">Featured Christian Businesses</h3>
+            <h3 className="text-4xl font-bold text-primary mb-4">Featured Christian Businesses in Kenya</h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover exceptional businesses that serve with Christian excellence and integrity
+              Discover exceptional Kenyan businesses that serve with Christian excellence and integrity
             </p>
           </div>
 
@@ -175,9 +175,9 @@ const Index = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h3 className="text-4xl font-bold text-primary mb-4">Why Choose Grace Marketplace?</h3>
+            <h3 className="text-4xl font-bold text-primary mb-4">Why Choose Grace Marketplace Kenya?</h3>
             <p className="text-lg text-muted-foreground">
-              More than a directory - it's a community built on faith and trust
+              More than a directory - it's Kenya's Christian community built on faith and trust
             </p>
           </div>
 
@@ -198,9 +198,9 @@ const Index = () => {
       {/* CTA Section */}
       <section className="py-16 christian-gradient christian-pattern text-white">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="text-4xl font-bold mb-4">Ready to Grow Your Christian Business?</h3>
+          <h3 className="text-4xl font-bold mb-4">Ready to Grow Your Christian Business in Kenya?</h3>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join hundreds of Christian businesses already connecting with their community through Grace Marketplace
+            Join hundreds of Christian businesses already connecting with their community through Grace Marketplace Kenya
           </p>
           
           <div className="grid md:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
@@ -214,7 +214,7 @@ const Index = () => {
             </div>
             <div className="flex items-center space-x-3 bg-white/10 rounded-lg p-4">
               <CheckCircle className="h-6 w-6 text-yellow-200" />
-              <span>24/7 Support</span>
+              <span>M-Pesa Payment Integration</span>
             </div>
           </div>
 
@@ -223,7 +223,7 @@ const Index = () => {
               Start Free Trial
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8 py-3 bg-white/10 border-white/30 text-white hover:bg-white/20">
-              View Pricing
+              View Pricing (KES)
             </Button>
           </div>
         </div>
@@ -236,10 +236,10 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Cross className="h-6 w-6" />
-                <h4 className="text-xl font-bold">Grace Marketplace</h4>
+                <h4 className="text-xl font-bold">Grace Marketplace Kenya</h4>
               </div>
               <p className="text-blue-100">
-                Connecting Christian businesses with their community since 2024.
+                Connecting Kenyan Christian businesses with their community since 2024.
               </p>
             </div>
             
@@ -247,7 +247,7 @@ const Index = () => {
               <h5 className="font-semibold mb-4">For Businesses</h5>
               <ul className="space-y-2 text-blue-100">
                 <li><a href="#" className="hover:text-white transition-colors">List Your Business</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Pricing (KES)</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Success Stories</a></li>
               </ul>
             </div>
@@ -272,7 +272,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-blue-600 pt-8 text-center text-blue-100">
-            <p>&copy; 2024 Grace Marketplace. Built with faith and dedication to serve the Christian community.</p>
+            <p>&copy; 2024 Grace Marketplace Kenya. Built with faith and dedication to serve Kenya's Christian community.</p>
           </div>
         </div>
       </footer>
