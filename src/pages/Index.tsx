@@ -81,7 +81,7 @@ const Index = () => {
             <Link to="/businesses" className="text-foreground hover:text-primary transition-colors">Browse Businesses</Link>
             <Link to="/about" className="text-foreground hover:text-primary transition-colors">About</Link>
             <Link to="/contact" className="text-foreground hover:text-primary transition-colors">Contact</Link>
-            <Button className="christian-gradient text-white">List Your Business</Button>
+            <Link to="/list-business"><Button className="christian-gradient text-white">List Your Business</Button></Link>
           </nav>
         </div>
       </header>
