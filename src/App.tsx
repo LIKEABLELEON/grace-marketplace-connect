@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Businesses from "./pages/Businesses";
 import ListBusiness from "./pages/ListBusiness";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
