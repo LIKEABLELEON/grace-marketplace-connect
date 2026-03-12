@@ -102,9 +102,11 @@ const Index = () => {
                 Browse Businesses
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-3 bg-white/10 border-white/30 text-white hover:bg-white/20">
-                List Your Business
-              </Button>
+              <Link to="/list-business">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-3 bg-white/10 border-white/30 text-white hover:bg-white/20">
+                  List Your Business
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
